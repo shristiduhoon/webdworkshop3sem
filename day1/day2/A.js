@@ -41,13 +41,28 @@
 // console.log(fullname());
 // console.log(fullname("Shristi","Duhoon"));
 
-console.log("\n ====== Percentage ======")
-function totalmarks(math,english,science){
-    return math+science+english;
-}
-function percentage(total){
-    return (total/300)*100;
-}
-var total=totalmarks(85,86,95);
-console.log("Total marks: "+total);
-console.log("Percentage: "+percentage(total)+"%");
+// console.log("\n ====== Percentage ======")
+// function totalmarks(math,english,science){
+//     return math+science+english;
+// }
+// function percentage(total){
+//     return (total/300)*100;
+// }
+// var total=totalmarks(85,86,95);
+// console.log("Total marks: "+total);
+// console.log("Percentage: "+percentage(total)+"%");
+
+// console.log("\n ====== While loop ======")
+// var i=1;
+// while(i<10){
+//     console.log(i);
+//     i++;
+// }
+
+// console.log("\n ====== DO-While loop ======")
+// var i=1;
+// do{
+//     console.log(i);
+//     i++;
+// }while(i<10);
+
