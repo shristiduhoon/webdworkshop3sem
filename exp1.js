@@ -2,28 +2,28 @@
 //require will fetch the module events
 
 const EventEmitter=require('events')
-// const A=new EventEmitter()
-// A.on('greet',(name)=>{
-//     console.log(`Hello there ${name}`)
-// })
-// A.on('exit',(num)=>{
-//     console.log(`thanqu for visiting ${num}`)
-// })
-// A.emit('greet','shristi')
-// A.emit('exit','us')
+const A=new EventEmitter()
+A.on('greet',(name)=>{
+    console.log(`Hello there ${name}`)
+})
+A.on('exit',(num)=>{
+    console.log(`thanqu for visiting ${num}`)
+})
+A.emit('greet','shristi')
+A.emit('exit','us')
 
 
-// class Button extends EventEmitter{
-//     click(){
-//         // console.log('Button was clicked')
-//         this.emit('click')
-//     }
-// }
-// const button=new Button()
-// button.on('click',(event=>{
-//     console.log('Button clicked')
-// }))
-// button.click()
+class Button extends EventEmitter{
+    click(){
+        // console.log('Button was clicked')
+        this.emit('click')
+    }
+}
+const button=new Button()
+button.on('click',(event=>{
+    console.log('Button clicked')
+}))
+button.click()
 
 
 // class Button extends EventEmitter {
